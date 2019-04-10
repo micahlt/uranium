@@ -20,3 +20,5 @@ async def ping(ctx):
     latency = bot.latency
     await ctx.send(latency)
     
+    
+bot.run('NTY1NTAzNjk2ODE4MTQzMjUz.XK3ZkA.qBfm0al8bXW-3T7r0GJ2n8DvdhA')
