@@ -9,6 +9,7 @@ async def on_ready():
     print(bot.user.name)
     print(bot.user.id)
     print('------')
+    await client.change_status(game=discord.Game(name='whatever'))
 
 @bot.command()
 async def greet(ctx):
