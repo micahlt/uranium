@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-bot = commands.Bot(command_prefix='$')
+bot = commands.Bot(command_prefix='u!')
 
 @bot.event
 async def on_ready():
@@ -14,5 +14,6 @@ async def on_ready():
 @bot.command()
 async def greet(ctx):
     await ctx.send(":smiley: :wave: Hello, there!")
+    await
 
 bot.run('NTY1NTAzNjk2ODE4MTQzMjUz.XK3ZkA.qBfm0al8bXW-3T7r0GJ2n8DvdhA')
